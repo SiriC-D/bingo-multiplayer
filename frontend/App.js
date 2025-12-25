@@ -14,10 +14,7 @@ import {
 import io from 'socket.io-client';
 
 // IMPORTANT: Replace with your computer's local IP address
-const SOCKET_URL =
-  __DEV__
-    ? 'http://10.62.135.57:3000'   // local testing
-    : 'https://YOUR_RENDER_URL.onrender.com'; // production
+const SOCKET_URL = 'https://bingo-multiplayer-9fi7.onrender.com';
 
 
 const { width, height } = Dimensions.get('window');
